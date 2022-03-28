@@ -1,0 +1,24 @@
+@import 'libs/bootstrap-reboot.min';
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,200,300,regular,500,600,700);
+@import 'var';
+@import 'mixins';
+@import 'general';
+@import 'animations';
+@import 'media';
+
+* {
+	font-family: 'Poppins', sans-serif;
+	font-display: swap;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	position: relative;
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+html {
+	scroll-behavior: smooth;
+}
